@@ -62,6 +62,7 @@ header {
 
 #services {
   min-height: 100vh;
+  background:#343a40;
   background-image: linear-gradient(to bottom, #272832, #272832cc),
     url('img/services-05.jpg');
   background-size: cover;
