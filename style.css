@@ -6,12 +6,9 @@ body {
   background: #eee;
 }
 
-.navbar-dark {
-  /*height: 3rem;*/
-}
-
 header {
   min-height: 90vh;
+  background:#343a40;
   background-image: linear-gradient(to bottom, #343a4099, #343a4099),
     url('img/landing_hero_bg.jpg');
   background-size: cover;
@@ -48,12 +45,6 @@ header {
   background-position: right top;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
-.about-image {
-  /* height: 100%; */
-  /* -webkit-object-fit: cover;
-  -webkit-object-position: right; */
 }
 
 .img-zoom {
