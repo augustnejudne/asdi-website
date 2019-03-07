@@ -1,0 +1,228 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #eee;
+}
+
+.navbar-dark {
+  /*height: 3rem;*/
+}
+
+header {
+  height: 90vh;
+  background-image: linear-gradient(to bottom, #343a4099, #343a4099),
+    url('img/landing_hero_bg.jpg');
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.heading-primary {
+  font-weight: 500;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  color: transparent;
+}
+
+.jumbotron {
+  background: none;
+}
+
+.asdi_logo {
+  width: 3rem;
+  margin-right: 1rem;
+  border-radius: 50%;
+}
+
+#about {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 5rem 1rem;
+  background-image: linear-gradient(to bottom, #f4f4f4, #f4f4f4cc),
+    url('img/cover_photo.jpg');
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.about-image {
+  height: 100%;
+  object-fit: cover;
+  object-position: right;
+}
+
+.img-zoom {
+  overflow: hidden;
+  box-shadow: 0 1rem 2rem #000000ee;
+}
+
+.img-zoom img {
+  transition: all 0.3s;
+}
+
+.img-zoom img:hover {
+  transform: scale(1.2);
+}
+
+#services {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #272832, #272832cc),
+    url('img/services-05.jpg');
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.section-title {
+  width: 100%;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 5rem 0 2rem;
+  font-family: 'Bitter', serif;
+}
+
+.section-description {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.services-offered-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.services-offered-list li {
+  /*border: 1px solid yellow;*/
+  padding: 1rem 2rem;
+  margin: 1rem 2rem;
+  height: 8rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.services-offered-list li:hover {
+  transform: scale(1.2);
+  box-shadow: 0 1rem 1rem #00000044;
+}
+
+.services-bg-1 {
+  background-image: linear-gradient(to bottom, #703a3a55, #703a3a55),
+    url('img/services-01.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.services-bg-2 {
+  background-image: linear-gradient(to bottom, #42379755, #42379755),
+    url('img/services-02.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.services-bg-3 {
+  background-image: linear-gradient(to bottom, #1e672255, #1e672255),
+    url('img/services-03.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.services-bg-4 {
+  background-image: linear-gradient(to bottom, #5f195d55, #5f195d55),
+    url('img/services-04.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.services-bg-5 {
+  background-image: linear-gradient(to bottom, #79473255, #79473255),
+    url('img/services-05.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.services-bg-6 {
+  background-image: linear-gradient(to bottom, #828c3755, #828c3755),
+    url('img/services-06.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#trainings {
+  padding: 0rem 1rem 5rem;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #ddddddff, #ddddddcc),
+    url('img/services-04.jpg');
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.training {
+  border-top: 1px solid white;
+}
+
+.trainings-text-box {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.flex-center-center {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer {
+  height: 10vh;
+}
+
+.fb-logo {
+  height: 1.2rem;
+  /*border: 2px solid yellow;*/
+}
+
+#backToTop {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 2rem; /* Place the button at the bottom of the page */
+  right: 3rem; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #343a40; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 1rem; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 1rem; /* Increase font size */
+}
+
+#backToTop:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
